@@ -6,6 +6,7 @@
     <head>
         <title>Test page</title>
         <link rel="stylesheet" href="scss/home.css">
+        <link rel="stylesheet" href="scss/index.css">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Oranienbaum" rel="stylesheet">
@@ -33,10 +34,32 @@
                     </form>   
                 </div> 
                 <div class="banner">
-                    <img src="images/mobile1.jpg" alt="">
+                    <div class="poster">
+                        <img src="images/poster.jpg" alt="" id="cover">
+                    </div>
+                    <div class="poster1">
+                        <img src="images/poster11.jpg" alt="" id="cover11">
+                        <img src="images/poster12.jpg" alt="" id="cover12">
+                        <img src="images/poster13.jpg" alt="" id="cover12">
+                    </div>
+                    <div class="poster2">
+                        <img src="images/poster21.png" alt="" id="cover21">
+                        <img src="images/poster22.jpeg" alt="" id="cover22">
+                        <img src="images/poster23.jpeg" alt="" id="cover23">
+                        <img src="images/poster24.png" alt="" id="cover24">
+                    </div>
+                    <div class="poster3">
+                       <img src="images/poster31.jpg" alt="" id="cover31">
+                        <img src="images/poster32.png" alt="" id="cover32">   
+                    </div>
                 </div>
-                </div>               
-            </div>
+                <br><br>
+                <footer>
+                    <br>
+                    <p>&copy; ChapterOne LLC.</p>
+                    <br>
+                </footer>
+            </div>               
         </div>
     </body>
 </html>

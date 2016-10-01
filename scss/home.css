@@ -1,5 +1,5 @@
 .container {
-  width: 69%;
+  width: 75%;
   margin: 0 auto;
   text-decoration: none;
   height: 100%;
@@ -92,4 +92,11 @@ input {
   border-radius: 5px;
   border: 1.5px solid cornflowerblue;
   height: 30px;
+}
+
+footer {
+  border-top: 1px solid #D3D3D3;
+}
+footer p {
+  color: #D3D3D3;
 }

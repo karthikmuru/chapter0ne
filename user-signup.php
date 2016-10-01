@@ -27,6 +27,7 @@
         <link rel="stylesheet" href="scss/home.css">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Maven+Pro" rel="stylesheet">
     </head>
     <body>
         <div class="container">
@@ -54,5 +55,10 @@
                 </form>      
             </div>
         </div>
+    <footer>
+        <br>
+        <p>&copy; ChapterOne LLC.</p>
+        <br>
+    </footer>
     </body>
 </html>

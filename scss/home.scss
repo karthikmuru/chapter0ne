@@ -1,8 +1,9 @@
 $logo:#6892A8;
 $text: #666;
 $border:#E9E9E9;
+$border1:#D3D3D3;
 .container{
-    width:69%;
+    width:75%;
     margin:0 auto;
     text-decoration: none;
     //background-color:beige;
@@ -96,4 +97,10 @@ input{
     border-radius:5px;
     border:1.5px solid cornflowerblue;
     height:30px;
+}
+footer{
+    border-top:1px solid $border1;
+    p{
+        color:$border1;
+    }
 }

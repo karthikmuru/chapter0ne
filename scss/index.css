@@ -1,0 +1,42 @@
+.banner div {
+  margin-bottom: 5px;
+  margin-top: 0px;
+}
+.banner img {
+  margin: auto;
+  width: auto;
+  height: auto;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.banner .poster img {
+  display: block;
+  max-width: 869.77px;
+}
+.banner .poster1 {
+  display: flex;
+  justify-content: space-around;
+}
+.banner .poster1 img {
+  display: block;
+  max-width: 280px;
+  max-height: 224px;
+}
+.banner .poster2 {
+  display: flex;
+  justify-content: space-around;
+}
+.banner .poster2 img {
+  display: block;
+  max-width: 200px;
+  max-height: 200px;
+}
+.banner .poster3 {
+  display: flex;
+  justify-content: space-around;
+}
+.banner .poster3 img {
+  display: block;
+  max-width: 430px;
+  max-height: 220px;
+}

@@ -22,7 +22,7 @@
              </div>
         </header>
         <div class="inner-container">
-           <div class="logo"> 0
+           <div class="logo"> 
                  <a href="index.php">ChapterOne</a>
             </div>
             <div class="search">
@@ -87,7 +87,12 @@
                     }
                 ?>
         </div> 
-    </div>               
-</div>   
+        <footer>
+            <br>
+            <p>&copy; ChapterOne LLC.</p>
+            <br>
+    </footer>      
+    </div>            
+</div>
 </body> 
 </html>

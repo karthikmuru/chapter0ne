@@ -70,6 +70,11 @@
                 </div>      
             </div>
         </div>
+    <footer>
+        <br>
+        <p>&copy; ChapterOne LLC.</p>
+        <br>
+        </footer>
     </body>
 </html>
 

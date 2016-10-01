@@ -43,8 +43,14 @@
                     <input type="file" name="pdf" required>
                     <br><br>
                     <input type="submit" name="pub">
-                </form>      
+                </form> 
+                <footer>
+            <br>
+            <p>&copy; ChapterOne LLC.</p>
+            <br>
+        </footer>     
             </div>
         </div>
+        
     </body>
 </html>
