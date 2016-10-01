@@ -1,6 +1,7 @@
 <?php
     //connection string
-     $conn = mysqli_connect('localhost','root','Muru123','bookstore');
+    $conn = mysqli_connect('localhost','root','Muru123','bookstore');
+    echo "Hello world!";
 ?>  
 <html>
     <head>
