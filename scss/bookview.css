@@ -1,0 +1,20 @@
+#cover {
+  display: block;
+  max-width: 860px;
+  max-height: 590px;
+  width: auto;
+  height: auto;
+}
+
+.inner-container .book-view {
+  margin-bottom: 50px;
+}
+.inner-container .book {
+  display: flex;
+}
+.inner-container .book .book-cover {
+  margin-right: 30px;
+}
+.inner-container .book .book-details {
+  font-size: 20px;
+}

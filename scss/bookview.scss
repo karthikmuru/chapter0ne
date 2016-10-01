@@ -1,0 +1,23 @@
+#cover{
+    display: block;
+    max-width:860px;
+    max-height:590px;
+    width: auto;
+    height: auto;
+}
+
+.inner-container{
+    .book-view{
+        margin-bottom: 50px;
+    }
+    .book{
+        display: flex;
+        .book-cover{
+            margin-right:30px;
+            
+        }
+        .book-details{
+            font-size: 20px;
+        }
+    }
+}

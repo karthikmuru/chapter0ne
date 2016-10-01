@@ -1,0 +1,95 @@
+.container {
+  width: 69%;
+  margin: 0 auto;
+  text-decoration: none;
+  height: 100%;
+}
+
+body {
+  margin: 0 0;
+  font-family: 'Open Sans', sans-serif;
+  background: url(../images/limestone.jpg) repeat;
+}
+
+header > * {
+  flex: 0 0 auto;
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+}
+header .nav-bar {
+  margin: 0 10px;
+  margin-top: 8px;
+}
+header .nav-bar a {
+  margin: 0 7px;
+  font-size: 14px;
+  color: black;
+  text-decoration: none;
+}
+header .nav-bar a:hover {
+  text-decoration: underline;
+}
+
+.logo {
+  margin: 5px 0;
+}
+.logo a {
+  text-decoration: none;
+  font-family: 'Maven Pro', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  font-size: 65px;
+  color: #6892A8;
+  margin: 25px 0;
+  padding: 5px;
+}
+
+.inner-container {
+  margin: 0 25px;
+}
+
+.intro .intro-para1 {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.intro .intro-para1 p {
+  font-size: 34px;
+  font-weight: 700;
+}
+.intro intro-para2 {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.intro intro-para2 p {
+  font-size: 20px;
+}
+.intro p {
+  margin: 0 5px;
+}
+
+.search {
+  margin-top: 45px;
+  margin-left: 7px;
+  margin-bottom: 50px;
+}
+.search #search-field {
+  width: 350px;
+  height: 30px;
+}
+.search #search-button {
+  margin-left: 10px;
+  width: 90px;
+  background-color: cornflowerblue;
+}
+.search #search-button:hover {
+  background-color: beige;
+}
+
+input {
+  border-radius: 5px;
+  border: 1.5px solid cornflowerblue;
+  height: 30px;
+}

@@ -1,0 +1,99 @@
+$logo:#6892A8;
+$text: #666;
+$border:#E9E9E9;
+.container{
+    width:69%;
+    margin:0 auto;
+    text-decoration: none;
+    //background-color:beige;
+    height: 100%;
+    //box-shadow: 0 0 10px #888888;
+}
+body{
+    margin:0 0;
+    font-family: 'Open Sans', sans-serif;
+    background: url(../images/limestone.jpg) repeat;
+   // background-color:#6892A8;
+}
+header > *{
+    flex:0 0 auto;
+}
+header{
+    display:flex;
+    justify-content:flex-end;
+    .nav-bar{
+        margin:0 10px;
+        margin-top:8px;
+        a{
+            margin:0 7px;
+            font-size:14px;
+            color:black;
+            text-decoration: none;
+            &:hover{
+                text-decoration: underline;
+            }
+        }
+    }
+}
+
+.logo{
+    margin:5px 0;
+    a{
+        text-decoration: none;
+        //font-family: 'Raleway', sans-serif;
+        //font-family: 'Oranienbaum', serif;
+        font-family: 'Maven Pro', sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 10px;
+        font-size: 65px;
+        color:$logo;
+        margin:25px 0;
+        padding:5px;
+    }
+}
+.inner-container{
+    margin:0 25px;
+}
+.intro{
+    .intro-para1{
+        margin-top:25px; 
+        margin-bottom: 25px;
+        p{
+            font-size:34px;
+            font-weight: 700;
+            
+        }
+    }
+    intro-para2{
+        margin-top:25px; 
+        margin-bottom: 25px;
+        p{
+            font-size:20px;
+        }
+    }
+    p{
+        margin:0 5px;
+    }
+}
+.search{
+    margin-top:45px;
+    margin-left:7px;
+    margin-bottom:50px;
+    #search-field{
+        width:350px;
+        height:30px;
+    }
+    #search-button{
+        margin-left:10px;
+        width:90px;
+        background-color:cornflowerblue;
+        &:hover{
+            background-color:beige;
+        }
+    }
+}
+input{
+    border-radius:5px;
+    border:1.5px solid cornflowerblue;
+    height:30px;
+}
